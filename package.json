@@ -1,0 +1,38 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fernando5351/peliculasBackend.git"
+  },
+  "author": "fernando",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fernando5351/peliculasBackend/issues"
+  },
+  "homepage": "https://github.com/fernando5351/peliculasBackend#readme",
+  "dependencies": {
+    "@hapi/boom": "^10.0.1",
+    "cloudinary": "^1.35.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "joi": "^17.8.3",
+    "jsonwebtoken": "^9.0.0",
+    "nodemon": "^2.0.21",
+    "postgres": "^3.3.4",
+    "sequelize": "^6.29.3"
+  },
+  "devDependencies": {
+    "eslint": "^8.36.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.27.5"
+  }
+}
